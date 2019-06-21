@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fyle</title>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<h1>Bank Data</h1>
+	City :
+	  <select id='city' name="">
+	    <option value="">-</option>
+	    <option value="MUMBAI">MUMBAI</option>
+	    <option value="TIRUPATI">TIRUPATI</option>
+	    <option value="CHENNAI">CHENNAI</option>
+	    <option value="DELHI">DELHI</option>		
+	    <option value="BANGALORE">BANGALORE</option>
+	  </select>
+	  <input type="text" name="" id="search" onkeyup="searchBranch()" placeholder="Branch">				
+	<table border="2"  id="bankTable">
+		<tr>
+			<th>CITY</th>
+			<th>District</th>
+			<th>Branch</th>
+			<th>Bank Name</th>
+			<th>IFSC</th>
+        	<th>BANK ID</th>
+        	<th>STATE</th>
+        	<th>ADDRESS</th>
+		</tr>
+	</table>
+<script src="./filter.js"></script>
+</body>
+</html>
