@@ -23,3 +23,6 @@ def udd_get_nationalities_Spacy(text):
   result = list(set([ent.text.lower() for ent in doc.ents]).intersection(nationalities))
 
   return result;
+
+
+https://gist.github.com/joshuabaker/d2775b5ada7d1601bcd7b31cb4081981
