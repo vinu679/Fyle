@@ -19,3 +19,23 @@ https://gist.github.com/joshuabaker/d2775b5ada7d1601bcd7b31cb4081981
   
   
 https://github.com/Dinuks/country-nationality-list/blob/master/countries.json
+
+  
+Atheism/Agnosticism
+Bahá’í
+Buddhism
+Christianity
+Confucianism
+Druze
+Gnosticism
+Hinduism
+Islam
+Jainism
+Judaism
+Rastafarianism
+Shinto
+Sikhism
+Zoroastrianism
+Traditional African Religions
+African Diaspora Religions
+Indigenous American Religions
