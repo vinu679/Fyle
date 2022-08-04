@@ -39,3 +39,7 @@ Zoroastrianism
 Traditional African Religions
 African Diaspora Religions
 Indigenous American Religions
+
+
+
+pip install -U git+https://github.com/aboSamoor/polyglot.git@master
