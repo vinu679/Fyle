@@ -43,3 +43,18 @@ Indigenous American Religions
 
 
 pip install -U git+https://github.com/aboSamoor/polyglot.git@master
+  
+!polyglot download LANG:en
+  
+from polyglot.text import Text
+
+# sentence = ', '.join(lang)
+text = Text("""Google is an American multinational Chinese English and Sundar Pichai is the CEO of Google""", hint_language_code ='en')
+# text.hint_language_code = 'en'
+print(text.entities)
+
+pip install pycld2
+
+
+
+lang = ['Chinese', 'American', 'Mandarin','English','Spanish','Arabic','Bengali','Hindi','Russian','Portuguese','Japanese','German','Chinese', 'Wu','Javanese','Korean','French', 'Turkish','Vietnamese','Telugu']
