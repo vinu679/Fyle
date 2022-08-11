@@ -58,3 +58,6 @@ pip install pycld2
 
 
 lang = ['Chinese', 'American', 'Mandarin','English','Spanish','Arabic','Bengali','Hindi','Russian','Portuguese','Japanese','German','Chinese', 'Wu','Javanese','Korean','French', 'Turkish','Vietnamese','Telugu']
+
+
+(?:((?<=ethnicity)\s?(?:\:|\-| (?<=is)| (?<=was)| (?<=be)| (?<=being)| \#))?\s?)(??)
